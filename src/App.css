@@ -30,6 +30,15 @@
   justify-content: center;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.purple-text {
+  color: #7A63FF;
+  font-weight: 600;
+}
+
 .app-header {
   width: 100vw;
   display: flex;
@@ -90,6 +99,11 @@
   width: 24px;
 }
 
+.small-icon {
+  height: auto;
+  width: 16px;
+}
+
 .tool-bar {
   flex-direction: row;
   justify-content: space-between;
@@ -98,10 +112,19 @@
   border-width: 1px;
   border-color: rgba(55, 53, 47, 0.3);
   padding: 10px;
+  color: #D3D3D3;
 }
 
-.right-tool-bar-container{
-  gap:7px;
+.tool-bar > * {
+  gap: 7px;
+}
+
+.colored-letter {
+  background-color: #c0fce6;
+  padding: 5px 8px;
+  border-radius: 3px;
+  color:#159163;
+  font-weight: 600;
 }
 
 .App-link {
